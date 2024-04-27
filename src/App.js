@@ -1,10 +1,14 @@
-import logo from './logo.svg';
+import Heading from './components/Heading';
+import Introduction from './components/Introduction';
+import TechStack from './components/TechStack';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <img src='../image/world-map.png' alt='test'></img>
+      <Heading/>
+      <Introduction/>
+      <TechStack/>
     </div>
   );
 }

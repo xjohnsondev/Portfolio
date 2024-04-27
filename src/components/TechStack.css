@@ -1,0 +1,31 @@
+.tech-stack {
+  position: relative;
+  height: 50%;
+  width: auto;
+  background-image: url("../images/philadelphia.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 1000px;
+}
+
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.tech-title {
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+
+i {
+    color: rgb(255, 255, 255);
+    font-size: 1000%;
+}

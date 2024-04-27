@@ -1,0 +1,26 @@
+.intro-div{
+    background-color: #FAF9F6;
+    margin: auto 25vw auto 5vw;
+}
+
+.overview {
+    margin-bottom: -10px;
+    font-family: "Poppins";
+    font-weight: 900;
+    font-size: min(5vw, 55px);
+    /* animation: fade-in 2s;
+    animation-timeline: view(); */
+}
+
+.elevator-pitch{
+    font-family: "Poppins";
+    font-size: min(5vw, 20px);
+    /* animation: fade-in 2s;
+    animation-timeline: view(); */
+}
+
+/* @keyframes fade-in {
+    0% { opacity: 0.3; }
+    50% {opacity: 0.5; }
+    100% { opacity: 1; }
+} */

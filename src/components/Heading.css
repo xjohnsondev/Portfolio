@@ -1,0 +1,65 @@
+.heading {
+  position: relative;
+}
+
+.world-map {
+  width: 100%;
+  height: auto;
+  max-height: 875px;
+}
+
+.heading-textbox {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 30%;
+  left: 10%;
+}
+
+.heading-greet {
+  margin-bottom: -100px;
+  font-family: "Poppins";
+  font-weight: bolder;
+  font-size: min(5vw, 100px);
+}
+
+.heading-name {
+  margin-bottom: -35px;
+  font-family: "Space Mono";
+  font-weight: bolder;
+  font-size: min(5vw, 120px);
+}
+
+.heading-desc {
+  font-family: "Poppins";
+  font-weight: bolder;
+  font-size: min(3vw, 50px);
+}
+
+.headshot {
+  position: absolute;
+  left: 75%;
+  bottom: 20%;
+  width: 18%;
+  height: auto;
+  z-index: 2;
+  border-radius: 200px;
+}
+
+.triangle {
+  width: 60vw;
+  height: 150vh;
+  background: linear-gradient(
+    to top right,
+    transparent 50%,
+    rgba(0, 0, 0, 0.85) 50%
+  );
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: rotate(180deg);
+  transform: scaleY(-1);
+}
+
