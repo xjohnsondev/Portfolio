@@ -4,7 +4,7 @@ import './Heading.css';
 
 const Heading = () => {
   return (
-    <div className="heading">
+    <div id="about" className="heading">
         <div className="heading-textbox">
         <h1 className="heading-greet">HI, I'M</h1>
         <h1 className="heading-name">XAVIER</h1>

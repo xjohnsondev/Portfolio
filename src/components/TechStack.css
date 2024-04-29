@@ -26,7 +26,7 @@
   z-index: 2;
   font-family: "Poppins";
   font-size: 500%;
-  margin-left: 4%;
+  margin-left: 5%;
   padding-top: 75px;
 }
 
@@ -39,6 +39,8 @@
     align-items: center;
     gap: 6rem;
     margin-top: 3.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 i {

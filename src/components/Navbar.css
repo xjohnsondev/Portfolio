@@ -1,7 +1,54 @@
 .navbar{
     position: fixed;
-    height: 100px;
+    display: flex;
+    align-items: center;
+    height: 80px;
     width: 100%;
     background-color: #d8d8d8;
     z-index: 3;
+}
+
+.nav-brand {
+    margin-left: 5%;
+    font-family: "Space Mono";
+}
+
+.nav-item-list {
+    position: absolute;
+    right: 5%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.nav-item {
+    margin-right: 10%;
+    font-family: "Space Mono";
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 900;
+}
+
+.nav-item a:hover {
+    font-weight: 200;
+}
+
+.nav-link-list{
+    position: absolute;
+    display: flex;
+    list-style: none;
+    left: 50%;
+    transform: translate(-55%);
+}
+
+.nav-link {
+    font-size: 30%;
+    color: black;
+}
+
+.nav-link a {
+    text-decoration: none;
 }
