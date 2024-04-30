@@ -9,13 +9,27 @@
 }
 
 .nav-brand {
-    margin-left: 5%;
     font-family: "Space Mono";
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-brand {
+        display: block;
+        margin-left: 5%;
+    }
+}
+
+.brand-img {
+    height: 65%;
+    width: auto;
+    margin-left: 4%;
+    margin-right: -3%;
 }
 
 .nav-item-list {
     position: absolute;
-    right: 5%;
+    right: 8%;
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -29,11 +43,11 @@
 .nav-item a {
     text-decoration: none;
     color: inherit;
-    font-weight: 900;
+    font-weight: 200;
 }
 
 .nav-item a:hover {
-    font-weight: 200;
+    font-weight: 900;
 }
 
 .nav-link-list{
@@ -47,6 +61,7 @@
 .nav-link {
     font-size: 30%;
     color: black;
+    margin-left: -5%;
 }
 
 .nav-link a {

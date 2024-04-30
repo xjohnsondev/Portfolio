@@ -4,7 +4,7 @@ const TechStack = () => {
   return (
     <div id="contact" className="tech-stack">
         <div className="background-overlay"></div>
-        <h1 className="tech-title">Tech-Stack</h1>
+        <h1 className="tech-title">Technologies</h1>
 
         <div className="icon-table">
       <i class="devicon-html5-plain-wordmark"></i>
