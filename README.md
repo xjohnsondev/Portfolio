@@ -9,7 +9,7 @@ You can view my portfolio live [here](https://xjohnsondev.github.io/Portfolio/).
 
 ## Screenshots
 
-![Screenshot]()
+![Screenshot](https://github.com/xjohnsondev/Portfolio/blob/main/src/images/image.png)
 
 ## Technologies Used
 
