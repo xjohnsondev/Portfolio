@@ -2,6 +2,7 @@ import Heading from './components/Heading';
 import Introduction from './components/Introduction';
 import TechStack from './components/TechStack';
 import Navbar from './components/Navbar';
+import Projects from './components/Projects';
 import './App.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Heading/>
       <Introduction/>
       <TechStack/>
+      <Projects/>
     </div>
   );
 }

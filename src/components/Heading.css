@@ -12,31 +12,33 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   top: 30%;
-  left: 10%;
+  left: 4%;
+  width: 40%;
 }
 
 .heading-greet {
-  margin-bottom: -100px;
   font-family: "Poppins";
-  font-weight: bolder;
-  font-size: min(5vw, 100px);
+  font-weight: bold;
+  font-size: min(6vw, 100px); 
+  margin: 0 0 -15px 0;
 }
 
 .heading-name {
-  margin-bottom: -35px;
   font-family: "Space Mono";
-  font-weight: bolder;
-  font-size: min(5vw, 120px);
+  font-weight: bold;
+  font-size: min(7vw, 120px);
+  margin: 0;
 }
 
 .heading-desc {
   font-family: "Poppins";
-  font-weight: bolder;
-  font-size: min(3vw, 50px);
+  font-weight: bold;
+  font-size: min(4vw, 50px);
+  margin: 0;
 }
+
 
 .headshot {
   position: absolute;

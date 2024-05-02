@@ -1,0 +1,13 @@
+.projects-display {
+    background-color: rgba(20, 31, 48);
+    margin-top: -55px;
+}
+
+.projects-title {
+    color: white;
+    position: relative;
+    font-family: "Poppins";
+    font-size: 500%;
+    margin-left: 5%;
+    padding-top: 75px;
+}

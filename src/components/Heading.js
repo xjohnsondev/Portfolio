@@ -6,9 +6,9 @@ const Heading = () => {
   return (
     <div id="about" className="heading">
         <div className="heading-textbox">
-        <h1 className="heading-greet">HI, I'M</h1>
-        <h1 className="heading-name">XAVIER</h1>
-        <h1 className="heading-desc">Software Engineer</h1>
+        <h1 className="head-text heading-greet">HI, I'M</h1>
+        <h1 className="head-text heading-name">XAVIER</h1>
+        <h1 className="head-text heading-desc">Software Engineer</h1>
         </div>
       <img className="world-map" src={worldMap} alt="world"></img>
       <div className="triangle"></div>

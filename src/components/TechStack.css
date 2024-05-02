@@ -37,7 +37,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 6rem;
+    gap: 5rem;
     margin-top: 3.5rem;
     margin-left: 10%;
     margin-right: 10%;
@@ -45,6 +45,6 @@
 
 i {
     color: white;
-    font-size: 1000%;
+    font-size: 800%;
     margin: 20px;
 }

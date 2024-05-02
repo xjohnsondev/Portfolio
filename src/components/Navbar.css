@@ -8,7 +8,14 @@
     z-index: 3;
 }
 
+.nav-title {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8%;
+}
+
 .nav-brand {
+    position: relative;
     font-family: "Space Mono";
     display: none;
 }
@@ -20,11 +27,11 @@
     }
 }
 
-.brand-img {
-    height: 65%;
+.navbar a .brand-img {
+    position: relative;
+    height: 60px;
     width: auto;
-    margin-left: 4%;
-    margin-right: -3%;
+    
 }
 
 .nav-item-list {

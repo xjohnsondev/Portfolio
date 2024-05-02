@@ -4,9 +4,11 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <img className='brand-img' src={brand} alt="brand"></img> 
-      <h3 className="nav-brand">Xavier</h3>
 
+      <div className='nav-title'>
+        <a href='#about'><img className='brand-img' src={brand} alt="brand"></img> </a>
+        <h3 className="nav-brand">Xavier</h3>
+      </div>
       <ul className="nav-link-list">
         <li className="nav-link">
           <a
@@ -18,13 +20,12 @@ const Navbar = () => {
           </a>
         </li>
         <li className="nav-link">
-        <a
+          <a
             href="https://github.com/xjohnsondev"
             target="_blank"
             rel="noopener noreferrer"
-
           >
-          <i class="devicon-github-original colored"></i>
+            <i class="devicon-github-original colored"></i>
           </a>
         </li>
       </ul>
@@ -34,9 +35,14 @@ const Navbar = () => {
           <a href="#about">Home</a>
         </li>
         <li className="nav-item">
-          <a href="#contact">Contact</a>
+          <a href="#projects">Projects</a>
         </li>
-        <li className="nav-item">Resume</li>
+        <li className="nav-item">         
+          <a href="https://docs.google.com/document/d/1uxqzWh3NppJESlX2Nps6BANgp6DvtP5HQnm05A7v8jk/edit?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Resume</a>
+        </li>
       </ul>
     </nav>
   );
