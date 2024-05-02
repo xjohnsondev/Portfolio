@@ -36,14 +36,14 @@
 
 .nav-item-list {
     position: absolute;
-    right: 8%;
+    right: 6%;
     display: flex;
     flex-direction: row;
     list-style: none;
 }
 
 .nav-item {
-    margin-right: 10%;
+    margin-right: 8%;
     font-family: "Space Mono";
 }
 
@@ -62,7 +62,7 @@
     display: flex;
     list-style: none;
     left: 50%;
-    transform: translate(-55%);
+    transform: translate(-50%);
 }
 
 .nav-link {

@@ -2,7 +2,7 @@ import "./TechStack.css";
 
 const TechStack = () => {
   return (
-    <div id="contact" className="tech-stack">
+    <div id="tech" className="tech-stack">
         <div className="background-overlay"></div>
         <h1 className="tech-title">Technologies</h1>
 

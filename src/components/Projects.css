@@ -1,13 +1,57 @@
 .projects-display {
-    background-color: rgba(20, 31, 48);
-    margin-top: -55px;
+  background-color: rgb(51, 54, 59);
+  margin-top: -55px;
+  padding-bottom: 20px;
 }
 
 .projects-title {
-    color: white;
+  color: aliceblue;
+  position: relative;
+  font-family: "Poppins";
+  font-size: 500%;
+  margin-left: 5%;
+  padding-top: 75px;
+}
+
+.projects-table {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.project-card img:hover {
+    opacity: 1;
+    transition: 1s ease;
+}
+
+.project-card img {
+  width: 550px;
+  height: auto;
+  margin: 20px;
+  opacity: 0.3;
+transition: 1s ease;
+}
+
+@media (max-width: 1200px) {
+    .projects-table {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 75%;
+    }
+
+  .project-card {
+    width: 80%;
     position: relative;
-    font-family: "Poppins";
-    font-size: 500%;
-    margin-left: 5%;
-    padding-top: 75px;
+    display: flex;
+    justify-self: center;
+  }
+
+  .project-card img {
+    display: flex;
+    justify-content: center;
+    
+  }
 }
