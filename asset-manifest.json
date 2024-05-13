@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a172266f.css",
+    "main.js": "/portfolio/static/js/main.66b77a67.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/PrimalSS.png": "/portfolio/static/media/PrimalSS.ebd7fea1b33b1eb38f99.png",
+    "static/media/JoblySS.png": "/portfolio/static/media/JoblySS.dcea5efb10733dc786f8.png",
+    "static/media/broad-street.jpg": "/portfolio/static/media/broad-street.1496594c9a41e34956e6.jpg",
+    "static/media/world-map.png": "/portfolio/static/media/world-map.b6f2c25ebd3ccf8b22b1.png",
+    "static/media/headshot.jpg": "/portfolio/static/media/headshot.43609b76418b5edcb9a7.jpg",
+    "static/media/brand.png": "/portfolio/static/media/brand.f9eb553054bc03bc32c7.png",
+    "static/media/pongSS.jpg": "/portfolio/static/media/pongSS.b05c794b708141495c46.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.a172266f.css.map": "/portfolio/static/css/main.a172266f.css.map",
+    "main.66b77a67.js.map": "/portfolio/static/js/main.66b77a67.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a172266f.css",
+    "static/js/main.66b77a67.js"
+  ]
+}
