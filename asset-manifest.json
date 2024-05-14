@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.25e98b1c.css",
+    "main.css": "/Portfolio/static/css/main.bf19cd64.css",
     "main.js": "/Portfolio/static/js/main.e87dac84.js",
     "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
     "static/media/PrimalSS.png": "/Portfolio/static/media/PrimalSS.ebd7fea1b33b1eb38f99.png",
@@ -11,12 +11,12 @@
     "static/media/brand.png": "/Portfolio/static/media/brand.f9eb553054bc03bc32c7.png",
     "static/media/pongSS.jpg": "/Portfolio/static/media/pongSS.b05c794b708141495c46.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.25e98b1c.css.map": "/Portfolio/static/css/main.25e98b1c.css.map",
+    "main.bf19cd64.css.map": "/Portfolio/static/css/main.bf19cd64.css.map",
     "main.e87dac84.js.map": "/Portfolio/static/js/main.e87dac84.js.map",
     "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25e98b1c.css",
+    "static/css/main.bf19cd64.css",
     "static/js/main.e87dac84.js"
   ]
 }
