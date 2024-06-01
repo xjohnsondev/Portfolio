@@ -5,7 +5,7 @@ This repository contains the source code for my personal portfolio website.
 
 ## Live Demo
 
-You can view my portfolio live [here](https://portfolio-esdk.onrender.com).
+You can view my portfolio live [here](https://xjohnsondev.github.io/Portfolio).
 
 ## Screenshots
 
